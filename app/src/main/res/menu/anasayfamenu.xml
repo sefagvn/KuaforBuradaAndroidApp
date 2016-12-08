@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chat="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/profil"
+        android:title="Profilim"
+        android:icon="@drawable/user2"
+        chat:showAsAction="always|withText|collapseActionView" />
+
+</menu>

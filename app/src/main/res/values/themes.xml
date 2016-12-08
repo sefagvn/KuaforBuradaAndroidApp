@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- uygulama veya Activity ye uygulanacak tema -->
+    <style name="OzelActionBarTemasi"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/OzelActionBarStili</item>
+    </style>
+
+    <!-- Action Bar stili -->
+    <style name="OzelActionBarStili"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#d81d52</item>
+    </style></resources>

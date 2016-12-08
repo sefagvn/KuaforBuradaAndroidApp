@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#fff</color>
+  <color name="primary_dark">#78c9fb</color>
+  <!--  üst menü -->
+  <color name="primary_darker">#eb87a3</color>
+  <color name="primary_button">#d81d52</color>
+  <color name="accent">#FFFFFF</color>
+
+  <color name="black">#000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#FFFFFF</color>
+  <color name="white">#FFFFFF</color>
+  <color name="kırmızı">#d81d52</color>
+</resources>
