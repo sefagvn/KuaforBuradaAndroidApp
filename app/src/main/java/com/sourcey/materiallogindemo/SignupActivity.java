@@ -42,6 +42,7 @@ public class SignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
         ButterKnife.bind(this);
 
+
         _nameText=(EditText)findViewById(R.id.input_name) ;
         _surnameText=(EditText)findViewById(R.id.input_surname) ;
         _emailText=(EditText)findViewById(R.id.input_email) ;
