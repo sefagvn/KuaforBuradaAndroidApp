@@ -86,7 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                                 public void onResponse(String response) {
 
                                     try {
-                                        JSONObject data = new JSONObject(response);
+                                        JSONObject data= new JSONObject(response);
                                         JSONObject userDetails = data.getJSONObject("data");
                                         String user_case = userDetails.getString("case");
                                         String token = userDetails.getString("token");
