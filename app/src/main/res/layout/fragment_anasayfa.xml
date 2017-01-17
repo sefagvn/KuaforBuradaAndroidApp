@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.materiallogindemo.Anasayfa">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Saç Stilleri"
+        android:textColor="@color/white"
+        android:background="@color/kırmızı"
+        android:textSize="20dp"/>
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:fillViewport="true"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <GridView
+
+                android:id="@+id/gridView"
+                android:layout_width="2300dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:numColumns="auto_fit"
+                android:columnWidth="150dp"
+                android:verticalSpacing="10dp"
+                android:scrollbars="horizontal">
+
+            </GridView>
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Kuaförler"
+        android:textColor="@color/white"
+        android:background="@color/kırmızı"
+        android:textSize="20dp"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:fillViewport="true"
+        android:layout_marginTop="280dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <GridView
+
+                android:id="@+id/gridView1"
+                android:layout_width="2300dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:numColumns="auto_fit"
+                android:columnWidth="150dp"
+                android:verticalSpacing="10dp"
+                android:scrollbars="horizontal">
+
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>
